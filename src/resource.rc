@@ -20,7 +20,7 @@ IDM_MAIN MENU
 		MENUITEM SEPARATOR
 		MENUITEM "Salir\tEsc", IDM_EXIT
 	}
-	POPUP "Help"
+	POPUP "Ayuda"
 	{
 		MENUITEM "Sitio web", IDM_WEBSITE
 		MENUITEM "Buscar actualizaciones", IDM_CHECKUPDATES
@@ -51,10 +51,10 @@ FONT 8, "Ms Shell Dlg"
 
 	DEFPUSHBUTTON   "¡Obtener descripción!", IDC_GET, 303, 25, 85, 15
 
-	LTEXT           "Código (decimal):", IDC_STATIC, 12, 50, 48, 10
+	LTEXT           "Código (dec):", IDC_STATIC, 12, 50, 48, 10
 	EDITTEXT        IDC_DESCRIPTION_1, 64, 50, 60, 10, NOT WS_BORDER | ES_AUTOHSCROLL | ES_READONLY
 
-	LTEXT           "Código (hexadecimal):", IDC_STATIC, 12, 64, 48, 10
+	LTEXT           "Código (hex):", IDC_STATIC, 12, 64, 48, 10
 	EDITTEXT        IDC_DESCRIPTION_2, 64, 64, 60, 10, NOT WS_BORDER | ES_AUTOHSCROLL | ES_READONLY
 
 	LTEXT           "Gravedad:", IDC_STATIC, 128, 50, 42, 10
